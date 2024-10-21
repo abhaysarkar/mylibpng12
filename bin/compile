@@ -1,0 +1,7 @@
+#!/bin/sh
+
+set -e
+
+# Install libpng12
+apt-get update
+apt-get install -y libpng12-0
